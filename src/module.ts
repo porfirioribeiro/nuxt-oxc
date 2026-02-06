@@ -6,7 +6,7 @@ export interface ModuleOptions {}
 export default defineNuxtModule<ModuleOptions>({
   meta: {
     name: 'nuxt-oxc',
-    configKey: 'myModule',
+    configKey: 'oxc',
   },
   // Default configuration options of the Nuxt module
   defaults: {},
