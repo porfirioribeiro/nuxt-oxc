@@ -1,4 +1,7 @@
 {
   "$schema": "./node_modules/oxfmt/configuration_schema.json",
-  "ignorePatterns": []
+  "singleQuote": true,
+  "trailingComma": "all",
+  "embeddedLanguageFormatting": "auto",
+  "printWidth": 120
 }
