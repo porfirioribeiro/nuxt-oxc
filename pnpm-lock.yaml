@@ -7,14 +7,13 @@ settings:
 importers:
 
   .:
-    dependencies:
-      '@nuxt/kit':
-        specifier: ^4.3.0
-        version: 4.3.0(magicast@0.5.2)
     devDependencies:
       '@nuxt/devtools':
         specifier: ^3.1.1
         version: 3.1.1(vite@7.3.1(@types/node@24.10.11)(jiti@2.6.1)(terser@5.46.0)(yaml@2.8.2))(vue@3.5.27(typescript@5.9.3))
+      '@nuxt/kit':
+        specifier: ^4.3.0
+        version: 4.3.0(magicast@0.5.2)
       '@nuxt/module-builder':
         specifier: ^1.0.2
         version: 1.0.2(@nuxt/cli@3.33.0(@nuxt/schema@4.3.0)(cac@6.7.14)(magicast@0.5.2))(@vue/compiler-core@3.5.27)(esbuild@0.27.3)(typescript@5.9.3)(vue-tsc@3.2.4(typescript@5.9.3))(vue@3.5.27(typescript@5.9.3))
@@ -48,6 +47,9 @@ importers:
       typescript:
         specifier: ~5.9.3
         version: 5.9.3
+      unbuild:
+        specifier: ^3.6.1
+        version: 3.6.1(typescript@5.9.3)(vue-sfc-transformer@0.1.17(@vue/compiler-core@3.5.27)(esbuild@0.27.3)(vue@3.5.27(typescript@5.9.3)))(vue-tsc@3.2.4(typescript@5.9.3))(vue@3.5.27(typescript@5.9.3))
       vitest:
         specifier: ^4.0.18
         version: 4.0.18(@types/node@24.10.11)(jiti@2.6.1)(terser@5.46.0)(yaml@2.8.2)
