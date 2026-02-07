@@ -57,7 +57,7 @@ importers:
       nuxt:
         specifier: ^4.3.0
         version: 4.3.0(@parcel/watcher@2.5.6)(@types/node@24.10.11)(@vue/compiler-sfc@3.5.27)(cac@6.7.14)(db0@0.3.4)(ioredis@5.9.2)(magicast@0.5.2)(oxlint@1.43.0(oxlint-tsgolint@0.11.4))(rollup@4.57.1)(terser@5.46.0)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.11)(jiti@2.6.1)(terser@5.46.0)(yaml@2.8.2))(vue-tsc@3.2.4(typescript@5.9.3))(yaml@2.8.2)
-      nuxt-oxc:
+      oxc-nuxt:
         specifier: latest
         version: 0.0.0
     devDependencies:
@@ -2792,7 +2792,7 @@ packages:
   nth-check@2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
 
-  nuxt-oxc@0.0.0:
+  oxc-nuxt@0.0.0:
     resolution: {integrity: sha512-lHBFrZNbJvKcWaANascY5LZc94YAVMrRf1Hbf9bWWOO5Oi2K/3b8aFzki+Jq+980zWvpK5UhhYlIj9JUCeUUgg==}
 
   nuxt@4.3.0:
@@ -6608,7 +6608,7 @@ snapshots:
     dependencies:
       boolbase: 1.0.0
 
-  nuxt-oxc@0.0.0: {}
+  oxc-nuxt@0.0.0: {}
 
   nuxt@4.3.0(@parcel/watcher@2.5.6)(@types/node@24.10.11)(@vue/compiler-sfc@3.5.27)(cac@6.7.14)(db0@0.3.4)(ioredis@5.9.2)(magicast@0.5.2)(oxlint@1.43.0(oxlint-tsgolint@0.11.4))(rollup@4.57.1)(terser@5.46.0)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.11)(jiti@2.6.1)(terser@5.46.0)(yaml@2.8.2))(vue-tsc@3.2.4(typescript@5.9.3))(yaml@2.8.2):
     dependencies:

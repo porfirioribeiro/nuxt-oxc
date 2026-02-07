@@ -9,7 +9,7 @@ type Unimport = Nitro['unimport'];
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: 'nuxt-oxc',
+    name: 'oxc-nuxt',
     configKey: 'oxc',
   },
   // Default configuration options of the Nuxt module

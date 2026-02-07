@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-oxc-playground",
+  "name": "oxc-nuxt-playground",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "nuxt": "^4.3.0",
-    "nuxt-oxc": "latest"
+    "oxc-nuxt": "latest"
   },
   "devDependencies": {
     "oxfmt": "^0.28.0",

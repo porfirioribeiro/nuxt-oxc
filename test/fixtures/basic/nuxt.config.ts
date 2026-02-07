@@ -1,5 +1,5 @@
-import NuxtOxc from '../../../src/module';
+import OxcNuxt from '../../../src/module';
 
 export default defineNuxtConfig({
-  modules: [NuxtOxc],
+  modules: [OxcNuxt],
 });
