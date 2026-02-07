@@ -13,8 +13,10 @@ export default defineConfig({
     perf: 'warn',
     nursery: 'warn',
   },
-  rules: {},
-  ignorePatterns: ['playground/**/*'],
+  rules: {
+    'import/max-dependencies': 'off',
+  },
+  ignorePatterns: ['playground/**/*', 'test/fixtures/**/*'],
 
   overrides: [
     {
