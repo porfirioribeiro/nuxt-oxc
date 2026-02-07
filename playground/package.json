@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "nuxt": "^4.3.0",
-    "oxc-nuxt": "latest"
+    "oxc-nuxt": "workspace:../"
   },
   "devDependencies": {
     "oxfmt": "^0.28.0",

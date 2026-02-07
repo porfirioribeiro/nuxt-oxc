@@ -1,6 +1,6 @@
 {
   "name": "oxc-nuxt",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Nuxt module to provide oxlint and oxfmt integration",
   "license": "MIT",
   "repository": "oxc-nuxt",
