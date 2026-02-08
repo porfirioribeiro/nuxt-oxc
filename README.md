@@ -7,17 +7,14 @@
 
 Nuxt module to provide oxlint and oxfmt integration for doing amazing things.
 
-- [✨ &nbsp;Release Notes](/CHANGELOG.md)
-- [🏀 Online playground](https://stackblitz.com/github/porfirioribeiro/oxc-nuxt?file=playground%2Fapp.vue)
+- [✨ &nbsp;Release Notes](https://github.com/porfirioribeiro/oxc-nuxt/releases)
+- [🏀 &nbsp;Online playground](https://stackblitz.com/github/porfirioribeiro/oxc-nuxt?file=playground%2Fapp.vue)
   <!-- - [📖 &nbsp;Documentation](https://example.com) -->
 
 ## Features
 
-<!-- Highlight some of the features your module provide here -->
-
-- ⛰ &nbsp;Foo
-- 🚠 &nbsp;Bar
-- 🌲 &nbsp;Baz
+- Integrates Oxc's linting capabilities into your Nuxt app
+- Adds nuxt auto-imports as globals
 
 ## Quick Setup
 
@@ -26,6 +23,30 @@ Install the module to your Nuxt application with one command:
 ```bash
 npx nuxt module add oxc-nuxt
 ```
+
+Create a `oxlint.config.ts` file in the root of your project with the following content:
+
+```ts [oxlint.config.ts]
+import { withNuxt } from './.nuxt/oxlint.mjs';
+
+export default withNuxt({
+  // Your custom Oxc rules and configurations go here. For example:
+});
+```
+
+Add the below to lint commands to your `package.json` script section:
+
+```json
+{
+  "scripts": {
+    ...
+    "lint": "oxlint --type-aware --type-check",
+    "lint:fix": "oxlint --type-aware --type-check --fix",
+    ...
+  },
+}
+```
+
 
 That's it! You can now use Oxc Nuxt in your Nuxt app ✨
 
@@ -47,8 +68,11 @@ That's it! You can now use Oxc Nuxt in your Nuxt app ✨
   # Build the playground
   npm run dev:build
   
-  # Run ESLint
+  # Run Oxlint
   npm run lint
+
+  # Run Oxfmt
+  npm run format
   
   # Run Vitest
   npm run test
