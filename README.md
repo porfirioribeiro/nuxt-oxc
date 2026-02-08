@@ -47,40 +47,46 @@ Add the below to lint commands to your `package.json` script section:
 }
 ```
 
-
 That's it! You can now use Oxc Nuxt in your Nuxt app ✨
 
 ## Contribution
 
 <details>
   <summary>Local development</summary>
-  
-  ```bash
-  # Install dependencies
-  npm install
-  
-  # Generate type stubs
-  npm run dev:prepare
-  
-  # Develop with the playground
-  npm run dev
-  
-  # Build the playground
-  npm run dev:build
-  
-  # Run Oxlint
-  npm run lint
 
-  # Run Oxfmt
-  npm run format
-  
-  # Run Vitest
-  npm run test
-  npm run test:watch
-  
-  # Release new version
-  npm run release
-  ```
+### Install dependencies
+
+> pnpm install
+
+### Generate type stubs
+
+> pnpm run dev:prepare
+
+### Develop with the playground
+
+> pnpm run dev
+
+### Build the playground
+
+> pnpm run dev:build
+
+### Run Oxlint
+
+> pnpm run lint
+
+### Run Oxfmt
+
+> pnpm run format
+
+### Run Vitest
+
+> pnpm run test
+
+> pnpm run test:watch
+
+### Release new version
+
+> pnpm run release
 
 </details>
 
